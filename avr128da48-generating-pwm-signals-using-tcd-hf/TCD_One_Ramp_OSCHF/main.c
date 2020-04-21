@@ -69,7 +69,7 @@ void TCD_Init(void)
     
     /* Enable the PWM channels */
     _PROTECTED_WRITE(TCD0.FAULTCTRL, TCD_CMPAEN_bm | TCD_CMPA_bm);
-    _PROTECTED_WRITE(TCD0.FAULTCTRL, TCD_CMPBEN_bm | TCD_CMPB_bm);
+                                   | TCD_CMPBEN_bm | TCD_CMPB_bm);
     
     /* Wait for TCD to be ready for enabling */
     while (!(TCD0.STATUS & TCD_ENRDY_bm))
