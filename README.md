@@ -116,7 +116,7 @@ TCD0:
 |PA5 (WOB)     | Digital Output     |
 
 ## Operation for Use Case #2
-**TCD configured in One Ramp and using OSCHF as input frequency**
+**TCD configured in Two Ramp and using PLL (driven by OSCHF) as input frequency**
 1. Connect the board to the PC.
 
 2. Open the *Generating_PWM_signals_using_TCD.atsln* solution in Atmel Studio
