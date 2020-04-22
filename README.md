@@ -85,9 +85,9 @@ TCD0:
 <br>**Results**
 <br>PA4 (WOA) - Channel 0 (black) in the screenshot below
 <br>PA5 (WOB) - Channel 1 (brown) in the screenshot below
-<br><img src="images/AVR-DA_TCD_use_case_1_PA4.png" width="500">
+<br><img src="images/AVR-DA_TCD_use_case_1_PA4.png">
 
-<br><img src="images/AVR-DA_TCD_use_case_1_PA5.png" width="500">
+<br><img src="images/AVR-DA_TCD_use_case_1_PA5.png">
 
 
 ## Setup for Use Case #2
@@ -140,9 +140,9 @@ TCD0:
 <br>**Results**
 <br>PA4 (WOA) - Channel 0 (black) in the screenshot below
 <br>PA5 (WOB) - Channel 1 (brown) in the screenshot below
-<br><img src="images/AVR-DA_TCD_use_case_2_PA4.png" width="500">
+<br><img src="images/AVR-DA_TCD_use_case_2_PA4.png">
 
-<br><img src="images/AVR-DA_TCD_use_case_2_PA5.png" width="500">
+<br><img src="images/AVR-DA_TCD_use_case_2_PA5.png">
 
 
 ## Summary
