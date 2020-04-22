@@ -70,7 +70,7 @@ void TCD_Init(void)
     TCD0.CMPBCLR = ON_TIME_START_WOB + ON_TIME_CYCLES_WOB;
     
     /* Enable the PWM channels */
-    _PROTECTED_WRITE(TCD0.FAULTCTRL, TCD_CMPAEN_bm | TCD_CMPA_bm);
+    _PROTECTED_WRITE(TCD0.FAULTCTRL, TCD_CMPAEN_bm | TCD_CMPA_bm
                                    | TCD_CMPBEN_bm | TCD_CMPB_bm);
     
     /* Wait for TCD to be ready for enabling */
