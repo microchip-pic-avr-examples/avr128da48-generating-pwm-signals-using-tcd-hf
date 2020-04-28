@@ -72,7 +72,7 @@ TCD0:
 4. Build the *TCD_One_Ramp_OSCHF* project: right click on *TCD_One_Ramp_OSCHF* and select Build
 <br><img src="images/AVR-DA_TCD_use_case_1_build.png" width="500">
 
-5. Select the AVR128DA48 Curiosity Nano on-board debugger in the *Tool* section of the *AVR-Dx_Bootloader* project settings:
+5. Select the AVR128DA48 Curiosity Nano on-board debugger in the *Tool* section of the *TCD_One_Ramp_OSCHF* project settings:
   - Right click on the project and click *Properties*;
   - Click *Tool* tab on the left panel, select the corresponding debugger and save the configuration (Ctrl + S)
 <br><img src="images/AVR-DA_TCD_use_case_1_tool_settings.png" width="500">
@@ -146,4 +146,4 @@ TCD0:
 
 
 ## Summary
-The [*TB3236 - Generating PWM Signals Using TCD with High-Frequency Input*](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1001508) document provides two use cases for PWM implementation using TCD.
+The [*TB3236 - Generating PWM Signals Using TCD with High-Frequency Input*](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1001508) document provides two use cases for PWM implementation using TCD with high-frequency input clock.
