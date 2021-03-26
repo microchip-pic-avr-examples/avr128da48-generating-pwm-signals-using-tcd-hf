@@ -39,14 +39,16 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "TCD"
+               "Peripherals",
+			   "TCD"
             ]
         ],
         "peripherals": [
             "TCD"
         ],
         "keywords": [
-            "High Frequency"		
+            "High Frequency",
+			"PLL"
         ],
 		"additionalData": {
 			"longDescription": {
